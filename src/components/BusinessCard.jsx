@@ -1,3 +1,4 @@
+import ContactInfo from "./ContactInfo";
 export default function BusinessCard() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
@@ -16,6 +17,8 @@ export default function BusinessCard() {
           Olutoye Abiodun Theophilus
         </h2>
         <p className="text-sm text-gray-500">Founder, Olegit Digital Services</p>
+        {/* Contact Info */}
+<ContactInfo />
       </div>
     </div>
   );

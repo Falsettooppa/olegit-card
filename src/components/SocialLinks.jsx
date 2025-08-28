@@ -12,7 +12,7 @@ export default function SocialLinks() {
         <FaLinkedin />
       </a>
       <a
-        href="https://wa.me/2348012345678"
+        href="https://wa.me/2347068364743"
         target="_blank"
         rel="noopener noreferrer"
         className="text-green-500 text-2xl hover:scale-110 transition"
@@ -20,7 +20,7 @@ export default function SocialLinks() {
         <FaWhatsapp />
       </a>
       <a
-        href="https://twitter.com"
+        href="https://twitter.com/olegitng"
         target="_blank"
         rel="noopener noreferrer"
         className="text-sky-500 text-2xl hover:scale-110 transition"

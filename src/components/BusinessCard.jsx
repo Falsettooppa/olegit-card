@@ -1,5 +1,6 @@
 import ContactInfo from "./ContactInfo";
 import SocialLinks from "./SocialLinks";
+import QRCodeCard from "./QRCodeCard";
 export default function BusinessCard() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
@@ -7,7 +8,7 @@ export default function BusinessCard() {
         {/* Profile Image */}
         <div className="flex justify-center mb-4">
           <img
-            src="https://via.placeholder.com/100"
+            src="/me.jpg"
             alt="Profile"
             className="w-24 h-24 rounded-full border-4 border-indigo-500 shadow-md"
           />
@@ -22,6 +23,9 @@ export default function BusinessCard() {
 <ContactInfo />
 {/* Social Media */}
 <SocialLinks />
+{/* QR Code */}
+<QRCodeCard />
+
 
       </div>
     </div>
